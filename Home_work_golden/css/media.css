@@ -1,0 +1,219 @@
+@media (max-width: 1024px){
+
+    .promo{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+    
+    }
+
+    .promo .container .nav .navigation {
+        width: 70%;
+    }
+
+    .promo .container .nav .navigation ul li{
+        font-size: 12px;
+
+    }
+
+    .promo .container .promo_block p{
+        font-size: 30px;
+        padding-bottom:40px;
+
+    }
+
+    .promo .container .promo_block h3{
+        font-size: 60px;
+        padding-bottom:40px;
+    
+    }
+
+    .promo .container .promo_block a{
+        font-size: 14px;
+        
+    }
+
+    .services .services_list div{
+        width: 30%;
+    }
+
+    .about .container .about_item .about_block .item{
+        padding: 0
+    }
+
+    .about .container .about_item:nth-child(even) .about_block img{
+        margin-left: -91px;
+        margin-right: 30px;
+        padding:90px 0;
+    }
+
+    .footer .container .copyright{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .promo{
+        background-size: cover;
+        height: auto;
+    
+    }
+
+    .promo .container .nav {
+        justify-content: center;
+        /* height: 10%; */
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .promo .container .nav .navigation {
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+
+    .promo .container .nav .navigation ul li {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .promo .container .promo_block {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .promo .container .promo_block p {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+
+    .promo .container .promo_block h3 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    .promo .container .promo_block a {
+        
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #fed136;
+        padding: 15px 30px;
+        border-radius: 5px;
+    }
+
+
+    .services .container .services_list {
+        display: flex;
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .services .services_list>div {
+        width: 84%;
+        margin-top: 30px;
+        border-bottom: 1px solid #cac3c3;
+        
+
+    }
+
+    .services .services_list>div p{
+        padding-bottom: 10px;
+    }
+
+    .about .container .about_item:nth-child(odd) .about_block img {
+        margin-right: 0px;
+        padding-left: 30px;
+    }
+
+    .about .container .about_item:nth-child(even) .about_block img {
+        margin-left: -0px;
+        margin-right: 30px;
+        padding: 90px 0;
+    }
+
+    .about .container .about_item{
+        display: block;
+    }
+
+    .about .container .about_item .about_block {
+        width: 100%;
+        display: flex;
+        
+    }
+
+    .about .container .about_item:nth-child(even) .about_block{
+        border: none;
+    }
+
+    .about .container .about_item:nth-child(odd) .about_block {
+        text-align: right;
+        border: none;
+    }
+
+    .about .container .about_list .about_item:last-child{
+        border: none;
+        width: 100%;
+    }
+
+    .about .container .about_list .about_item .last_item{
+        margin: 0 auto;
+    } 
+
+    .amazing .container .amazing_author {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 80px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .amazing .container .amazing_author .author:not(:last-child){
+        padding:40px 0;
+        border-bottom: 1px double rgb(78, 74, 74);
+    }
+
+    .amazing .container .amazing_author .author:last-child{
+        padding-top: 40px;
+    }
+
+
+
+    .amazing .container>p{
+        margin: 0;
+    }
+
+
+    .logos .container {
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+
+    .logos .container>div{
+        width: 60%;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .logos .container>div:not(:last-child){
+        padding-bottom: 30px;
+        border-bottom:  1px double rgb(78, 74, 74);
+
+
+    }
+
+
+    .footer .container {
+        text-align: center;
+    }
+
+
+}
