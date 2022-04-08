@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* font-family: 'Arvo', serif;
+font-family: 'Montserrat', sans-serif; 
+font-family: 'Open Sans', sans-serif;*/
+
+.Price{
+    background-image: url(../img/BG.png);
+    max-width: 1280px;
+    height: 880px;
+    text-align: center;
+    overflow: auto;
+    margin: 0 auto;
+    
+}
+
+.Price .Price_text{
+    text-align: center;
+    max-width: 45%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 45px;
+
+}
+
+.Price .Price_text h1{
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Arvo', serif;
+    text-shadow:  rgba(0, 0, 0, 0.219) -1px 6px 4px;
+    padding-bottom: 30px;
+}
+
+.Price .Price_text p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.Price .Price_list{
+    display: inline-flex;
+    
+    border-radius: 5px;
+    overflow: hidden;
+    
+    
+
+}
+
+
+.Price_list .Price_content{
+    background-color: white;
+    padding: 50px 0px 50px 65px ;  
+    
+}
+
+
+.Price_list .Price_content .List_freelancer, .List_agency, .list_corporation{
+    border-right: #D8D8D8 1px solid;
+    padding-right: 65px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.Price_list .Price_content:last-child .list_corporation{
+    border: none;
+}
+
+.Price_list .Price_content .List_agency .agency{
+    display:flex;
+    justify-content: space-between;
+       
+}
+ 
+.Price_list .Price_content:hover .regular{
+    color: #F05638;
+
+}
+
+.Price_list .Price_content .List_agency .popular{
+    font-size: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #8D76BE;
+    color: #FFFFFF;
+  
+} 
+
+.Price_list .Price_content .List_freelancer h4, .List_agency h4, 
+.list_corporation h4{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.Price_list .Price_content .List_freelancer .regular, .List_agency .regular, 
+.list_corporation .regular{
+    font-family: 'Arvo', serif;
+    font-size: 72px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.Price_list .Price_content .List_freelancer .regular::before{
+    content: "\0024";
+    color: #818181;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    
+}
+
+.Price_list .Price_content .List_agency .regular::before{
+    content: "\0024";
+    color: #818181;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+
+}
+
+.Price_list .Price_content .list_corporation .regular::before{
+    content: "\0024";
+    color: #818181;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    
+}
+
+.Price_list .Price_content .List_freelancer .bold, .List_agency .bold, .list_corporation .bold{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 1em;
+
+}
+
+.Price .Price_list .Price_content .gb{
+    font-family: 'Arvo', serif;
+    font-size: 16px ;
+    color: #212121;
+    margin-bottom: 2em;
+    
+}
+
+
+.Price .Price_list .Price_content .buttom{
+    text-decoration: none;
+    color: #525252;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    border: #9FA3A7 1px solid;
+    padding: 16px 26px;
+    border-radius: 50px;
+    display: inline-block;
+    
+}
+
+.Price .Price_list .Price_content .buttom:hover {
+    background-color: #FFC80A;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
